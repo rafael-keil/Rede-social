@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #1565c0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  gap: 50px;
+  z-index: 10;
+}
+
+.header__nome {
+  font-family: facebook;
+  font-size: 50px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__pesquisa {
+  width: 50vw;
+}
+
+.header__usuario {
+  width: 212px;
+}
+
+.header__logout {
+  width: 20px;
+}
+
+.header__card {
+  display: flex;
+  align-items: center;
+}
+
+.header__enviar {
+  width: 40px;
+}
+
+.header__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__modal_item {
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: 0 0 4px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 10px;
+  overflow-y: scroll;
+  min-width: 25vw;
+}
+
+.header__pesquisa_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  box-shadow: 0 0 4px black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+}

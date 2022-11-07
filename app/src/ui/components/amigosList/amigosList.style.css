@@ -1,0 +1,10 @@
+.amigos_list {
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: 0 0 4px black;
+  min-height: 50vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

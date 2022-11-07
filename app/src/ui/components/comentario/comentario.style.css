@@ -1,0 +1,41 @@
+.comentario {
+  padding: 10px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: 0 0 4px black;
+}
+
+.comentario__tab1 {
+  margin-left: 40px;
+}
+
+.comentario__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comentario__corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comentario__imagem {
+  width: 15vw;
+}
+
+.comentario_descricao {
+  padding: 5px 0;
+}
+
+.comentario_contagem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comentario__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

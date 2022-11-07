@@ -1,0 +1,26 @@
+.main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__feed {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main__feed_carregando {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.main__notificacoes {
+  width: 20vw;
+}
+
+.main__amigos {
+  width: 20vw;
+}
